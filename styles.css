@@ -16,16 +16,20 @@ body {
 }
 
 .principal {
+  /* Por Imagem */
   background-image: url("https://i0.wp.com/njstempathways.org/wp-content/uploads/2019/03/4k-wallpaper-blue-sky-blur-281260.jpg?ssl=1");
+  background-image: url("img/barbiePlanoDeFundo.png");
   background-repeat: no-repeat;
   background-size: cover;
+  /* Por degrade */
+  background: rgb(97, 201, 255);
+  background: linear-gradient(0deg, rgba(97, 201, 255, 1) 0%, rgba(1, 131, 255, 1) 50%, rgba(1, 116, 250, 1) 100%);
 }
 
 .container {
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
-
 }
 
 .container__botao {
@@ -56,20 +60,21 @@ body {
   font-size: 12px;
   color: black;
 }
-.container_caixa{
+
+.container_caixa {
   margin: 0 6em;
 }
 
-.container_imagem{
+.container_imagem {
   margin: 1em 0 2em 0;
 }
 
-.principal{
+.principal {
   align-items: center;
   text-align: center;
 }
 
-.container__botao{
+.container__botao {
   margin-bottom: 0.5em;
 }
 
@@ -78,16 +83,29 @@ body {
 }
 
 .container_secundario {
-  background-image: url("https://i0.wp.com/njstempathways.org/wp-content/uploads/2019/03/4k-wallpaper-blue-sky-blur-281260.jpg?ssl=1");
+  background-image: url("img/barbiePlanoDeFundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(97, 201, 255);
+  background: linear-gradient(0deg, rgba(97, 201, 255, 1) 0%, rgba(1, 131, 255, 1) 50%, rgba(1, 116, 250, 1) 100%);
+}
+
+.secundario_invertido {
+  background-image: url("img/barbiePlanoFundo3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(1, 116, 250);
+  background: linear-gradient(0deg, rgba(1, 116, 250, 1) 0%, rgba(1, 131, 255, 1) 50%, rgba(97, 201, 255, 1) 100%);
 }
 
 .secundario {
-  align-items: center;    
+  align-items: center;
   margin: 0 10em;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.segundario__imagem{
+
+.segundario__imagem {
   width: 80%;
 }
 
@@ -97,7 +115,7 @@ body {
   margin-bottom: 0.1em;
 }
 
-.descricao__texto{
+.descricao__texto {
   color: white;
   line-height: 125%;
   font-size: 20px;
@@ -106,10 +124,3 @@ body {
 .container__descricao {
   padding: 2em;
 }
-
-
-
-
-
-
-  
